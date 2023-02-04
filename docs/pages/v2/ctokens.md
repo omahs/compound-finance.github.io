@@ -346,8 +346,8 @@ await cToken.methods.liquidateBorrow(0xBorrower, 33, cTokenCollateral).send({fro
 | 12   | `TOKEN_INSUFFICIENT_ALLOWANCE` | ERC-20 contract must *allow* Money Market contract to call `transferFrom`. The current allowance is either 0 or less than the requested supply, repayBorrow or liquidate amount. |
 | 13   | `TOKEN_INSUFFICIENT_BALANCE` | Caller does not have sufficient balance in the ERC-20 contract to complete the desired action. |
 | 14   | `TOKEN_INSUFFICIENT_CASH` | The market does not have a sufficient cash balance to complete the transaction. You may attempt this transaction again later. |
-| 15   | `TOKEN_TRANSFER_IN_FAILED` | Failure in ERC-20 when transfering token into the market. |
-| 16   | `TOKEN_TRANSFER_OUT_FAILED` | Failure in ERC-20 when transfering token out of the market. |
+| 15   | `TOKEN_TRANSFER_IN_FAILED` | Failure in ERC-20 when transferring token into the market. |
+| 16   | `TOKEN_TRANSFER_OUT_FAILED` | Failure in ERC-20 when transferring token out of the market. |
 {: .error-codes-table }
 
 ## Failure Info
